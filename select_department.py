@@ -1,3 +1,7 @@
+# This code shows the use of Machine Learning to recommend a suitable engineering department for the students in the faculty based on their first year results. 
+# Gradient Boosting Classifier model is used here to provide more accurate result. 
+# The model is trained using a dataset containing the first year results of previous students and those who has an increased GPA after the third semester. Which means only the students who has succeeded their third semester after department selection is considered.
+
 import pandas as pd
 import numpy as np
 
